@@ -1,0 +1,123 @@
+#main {
+	width: 1200px;
+	margin: auto;
+	margin-bottom: 0px;
+}
+#navboard {
+	height: 800px;
+	width: 1200px;
+	margin: auto;
+	margin-top: 60px;
+}
+
+#navBtnsLayout {
+	height: 610px;
+	width: 100%;
+	margin: auto;
+}
+
+#navBtnsLayout-column {
+	width: 240px; 
+	height: 100%; 
+	float: left;
+}
+
+#homeCircle {
+	width: 240px;
+	height: 240px;
+	margin: auto;
+	margin-top: 60px;
+	border-radius: 100%;
+	background-color: white;
+	border: 10px solid white;
+	box-shadow: 0px 0px 15px #222222;
+	cursor: pointer;
+}
+
+.navCircle {
+	background-color: white;
+	border-radius: 100%;
+	width: 120px;
+	height: 120px;
+	margin:auto;
+	margin-top: 80px;
+	border: 10px solid white;
+	box-shadow: 0px 0px 15px #222222;
+	cursor: pointer;
+}
+
+#nameContainer {
+	height: 150px;
+	width: 100%;
+	margin-top: -20px;
+}
+
+
+#infoCircle {
+	margin-right: -40px;
+	margin-top: 150px;
+}
+
+.navImage {
+	height: 100%;
+	margin: 0 auto;
+}
+
+#experienceCircle {
+	margin-top: 180px;
+}
+
+#skillsPortfolioCircle {
+	margin-top: -2px;
+}
+
+#educationCircle {
+	margin-top: 180px;
+}
+
+#contactCircle {
+	margin-left: -40px;
+	margin-top: 150px;
+}
+
+#nameDiv {
+	margin: auto;
+	text-align: center;
+}
+
+#nameText {
+	font-family: "Arial-Black";
+	color: white;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+.circleLabel {
+	margin-top: 40px;
+	position: absolute;
+	font-family: "Arial-Black";
+	font-size: 1.5em;
+	color: white;
+	visibility: hidden;
+	opacity: .8;
+}
+
+#aboutLabel {
+	margin-left: -150px;
+}
+
+#experienceLabel {
+	margin-left: -255px;
+}
+
+#portfolioLabel {
+	margin-left: -165px;
+}
+
+#educationLabel {
+	margin-left: 130px;
+}
+
+#contactLabel {
+	margin-left: 130px;
+}
