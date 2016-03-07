@@ -8,7 +8,7 @@
 	<div id="main" class="container">
 		<!--about view-->
 			<div id="aboutView" class="subView">
-				<div class="subViewExitBtn"><image class="navImage" src="img/attra/close-icon.png"></div>
+				<div class="subViewExitBtn" style="background-color:white"><image class="navImage" src="img/attra/close-icon.png"></div>
 				<div class="subViewTitleView"><span class="subViewTitleText">ABOUT ME</span></div>
 				<div id="aboutBodyView" class="subViewBodyView">
 					<p class="subViewBodyText">My start in graphic design and web development began with film at the age of 12, when I purchased my first camcorder. In order to make the title designs I wanted, I had to create them myself, and the only option was to teach myself basic graphic design.</p>
@@ -24,7 +24,7 @@
 			</div>
 
 			<div id="experienceView" class="subView">
-				<div class="subViewExitBtn"><image class="navImage" src="img/attra/close-icon.png"></div>
+				<div class="subViewExitBtn" style="background-color:white"><image class="navImage" src="img/attra/close-icon.png"></div>
 				<div class="subViewTitleView"><span class="subViewTitleText">WORK EXPERIENCE</span></div>
 				<div id="experienceBodyView" class="subViewBodyView">
 					<div class="experienceHeaderView">
@@ -65,7 +65,7 @@
 							<li>Established an understanding of asynchronous and synchronous operations.</li>
 							<li>Created all UI components in Adobe Illustrator and Adobe Photoshop.</li>
 						</ul>
-					</div>
+					</div>S
 					<div class="experienceHeaderView" style="margin-top:40px">
 						<p class="subViewBodyText experienceHeaderText">OTHER PROFESSIONAL EXPERIENCE</p>
 					</div>
@@ -96,6 +96,50 @@
 				</div>
 			</div>
 
+		<div id="portfolioView" class="subView">
+			<div class="subViewExitBtn" style="background-color:white"><image class="navImage" src="img/attra/close-icon.png"></div>
+			<div class="subViewTitleView">
+				<div id="pillsDiv">
+					<ul class="nav nav-pills black" id="skillsPorfolioPills">
+	                    <li class="active" id="portfolioPill">
+	                    	<a href="#" data-toggle="tab"><span class="subViewTitleText">PORTFOLIO</span></a>
+	                    </li>
+	                    <li id="skillsPill">
+	                    	<a href="#" data-toggle="tab"><span class="subViewTitleText">SKILLS</span></a>
+	                    </li>
+	                </ul>
+            	</div>
+			</div>
+			<div id="portfolioBodyView" class="subViewBodyView">
+				<div class="tab-content">
+					<div class="colContainer tab-pane active" id="portfolioBox">
+						<div class="subViewCol" style="margin-left:17px">
+							<div class="portfolioSectionHeader">GAMES &amp APPS</div>
+							<div class="portfolioSection">
+								<p class="portfolioSectionText"><a href="https://itunes.apple.com/us/app/eko/id1083947519?ls=1&mt=8">Eko</a> (iOS)</p>
+								<p class="portfolioSectionText"><a href="https://github.com/gnwgames/wizycs">Wizycs</a> (Phaser.js)</p>
+								<p class="portfolioSectionText"><a href="https://github.com/broderickattra/twilioSMSapp">Twilio SMS App</a></p>
+
+							</div>
+						</div>
+						<div class="subViewCol">
+							<div class="portfolioSectionHeader">WEBSITES</div>
+							<div class="portfolioSection">
+								<p class="portfolioSectionText"><a href="#">Current Personal Webpage</a></p>
+								<p class="portfolioSectionText"><a href="http://gregattra.com/">Original Personal Webpage</a></p>
+								<p class="portfolioSectionText"><a href="http://ekoapp.co/">Ekoapp.co</a></p>
+							</div>
+						</div> 
+						<div class="subViewCol tab-pane">
+							<div class="portfolioSectionHeader">GRAPHIC DESIGN</div>
+							<div class="portfolioSection">
+								<p class="portfolioSectionText"><a href="https://github.com/broderickattra/IllustratorProjects">Adobe Illustrator Projects</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!--navigation view-->
 		<div id="navboard">
 			<div id="nameContainer">
@@ -115,7 +159,7 @@
 				</div>
 				<div id="navBtnsLayout-column">
 					<div id="skillsPortfolioCircle" class="navCircle">
-						<span id="portfolioLabel" class="circleLabel">PORTFOLIO</span>
+						<span id="portfolioLabel" class="circleLabel">PORTFOLIO &amp SKILLS</span>
 						<image class="navImage" src="img/attra/portfolio-icon.png">
 					</div>
 					<div id="homeCircle">

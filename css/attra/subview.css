@@ -12,7 +12,7 @@
 }
 
 .subViewExitBtn {
-	border-radius: 100%;
+	border-radius: 100%;s
 	background-color: white;
 	height: 50px;
 	width: 50px;
@@ -49,6 +49,39 @@
 	font-family: "Verdana";
 	font-size: 1.3em;
 	color: black;
+}
+
+.colContainer {
+	width: 1000px;
+	margin: auto;
+	margin-top: 45px;
+}
+
+.subViewCol {
+	width: 300px;
+	display: inline-block;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid #998571;
+	margin-right: 25px;
+	vertical-align: top;
+}
+
+.portfolioSectionHeader {
+	width: 100%;
+	height: 75px;
+	font-family: "Arial-Black";
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	background-color: #998571;
+	padding-top: 15px;
+}
+
+.portfolioSection {
+	overflow: scroll;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
 }
 
 #aboutView {
@@ -88,6 +121,17 @@
 	font-size: 1em;
 }
 
+#pillsDiv {
+	width: 420px;
+	margin:auto;
+}
 
+#portfolioView {
+	background-color: #998571;
+	display: inline-block;
+}
 
+#skillsPorfolioPills {
+	margin: auto;
+}
 
