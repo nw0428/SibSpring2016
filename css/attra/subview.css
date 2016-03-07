@@ -1,0 +1,93 @@
+.subView {
+	width: 1200px;
+	height: 650px;
+	opacity: .9;
+	position: fixed;
+	margin: auto;
+	top: 50%;
+	margin-top: -300px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px #222222;
+	display: none;
+}
+
+.subViewExitBtn {
+	border-radius: 100%;
+	background-color: white;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	margin-left: -25px;
+	margin-top: -25px;
+	cursor: pointer;
+}
+
+.subViewTitleView { 
+	text-align: center; 
+	margin:auto;
+	margin-top: 10px;
+}
+.subViewTitleText {
+	font-family: "Arial-Black";
+	font-size: 2.3em;
+	font-weight: bold;
+	color: white;
+} 
+
+.subViewBodyView {
+	height: 80%; 
+	width: 90%;
+	margin: auto;
+	background-color: white;
+	margin-top: 10px;
+	border-radius: 10px;
+	overflow: scroll;
+	padding: 10px 10px 10px 10px;
+}
+
+.subViewBodyText {
+	font-family: "Verdana";
+	font-size: 1.3em;
+	color: black;
+}
+
+#aboutView {
+	background-color: #a80532;
+}
+
+#experienceView {
+	background-color: #0076aa;
+}
+
+.experienceHeaderView {
+	text-align:center; 
+	margin:auto;
+	border-bottom:1px solid black;
+	margin-bottom: 10px;
+}
+
+.experienceHeaderText {
+	font-weight: bold;
+}
+
+.employerView {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.employerHeader {
+	font-weight: bold;
+}
+
+.experienceMeta {
+	font-size: 1em;
+	margin-top: -10px;
+}
+
+.experienceTasks {
+	font-size: 1em;
+}
+
+
+
+

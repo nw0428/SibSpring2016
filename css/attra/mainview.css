@@ -7,7 +7,7 @@
 	height: 800px;
 	width: 1200px;
 	margin: auto;
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 #navBtnsLayout {
@@ -49,9 +49,8 @@
 #nameContainer {
 	height: 150px;
 	width: 100%;
-	margin-top: -20px;
+	margin-bottom: -20px;
 }
-
 
 #infoCircle {
 	margin-right: -40px;
@@ -99,7 +98,6 @@
 	font-size: 1.5em;
 	color: white;
 	visibility: hidden;
-	opacity: .8;
 }
 
 #aboutLabel {
