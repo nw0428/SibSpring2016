@@ -53,7 +53,7 @@ $(document).ready(function(){
       	$("#skillsPill a").css({'background-color':'#998571','border':'1px solid white'});
       	$(this).find('.subViewTitleText').css({'color':'#998571'});
       	$('#skillsPill a').find('.subViewTitleText').css({'color':'white'});
-		$("#skillsView").hide();
+		$("#skillsBox").hide();
 		$("#portfolioBox").show();
 
 		var offset = -150;
