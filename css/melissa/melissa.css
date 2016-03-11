@@ -1,0 +1,23 @@
+#maintitle {
+    font-family:courier new;
+    font-size:25px;
+    text-transform:uppercase;
+    color:#4f4f4f;
+    margin-top:30px;
+    font-style:italic;
+    letter-spacing:5px;
+}
+
+
+#about {
+    margin-top:15px;
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:#aaa;
+    font-family:calibri, arial;
+    font-weight:normal;
+    position:relative;
+    margin:0;
+    line-height:1.5em;
+  }
