@@ -1,0 +1,95 @@
+/* 03/10/16
+ * General CSS rules for SI Profile
+ */
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #2980b9;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body {
+    background-color: #bdc3c7;
+}
+
+p {
+    font-family: arial;
+    padding-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.pretty-link {
+    text-decoration: none;
+    color: inherit;
+}
+.pretty-link:hover {
+    color: black;
+}
+
+.main-picture {
+    border: 3px solid #2980b9;
+    width:  300px;
+    height: 350px;
+}
+
+.software-picture {
+    margin: 3px;
+    border: 5px solid #2980b9;
+    width:  300px;
+    height: 300px;
+}
+
+.arrow-picture {
+    padding-top: 65px;
+    width:  50px;
+    height: 50px;
+}
+
+.profile {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-color: #2980b9;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.name-title{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+.footer {
+    background-color: #2980b9;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: black;
+}
