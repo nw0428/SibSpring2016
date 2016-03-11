@@ -1,0 +1,50 @@
+/* 03/10/16
+ * General CSS rules for SI Profile
+ */
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body {
+    background-color: #bdc3c7;
+}
+
+p {
+    font-family: arial;
+    padding-top: 20px;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.main-picture {
+    border: 2px solid #2980b9;
+    width:  300px;
+    height: 350px;
+}
+
+.profile {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.top-bar {
+    background-color: #2980b9;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.top-bar a {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.top-bar a:hover {
+    color: black;
+}
