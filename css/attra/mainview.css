@@ -1,4 +1,4 @@
-#main {
+ #main {
 	width: 1200px;
 	margin: auto;
 	margin-bottom: 0px;
@@ -7,13 +7,14 @@
 	height: 800px;
 	width: 1200px;
 	margin: auto;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 #navBtnsLayout {
 	height: 610px;
 	width: 100%;
 	margin: auto;
+	margin-top: 15px;
 }
 
 #navBtnsLayout-column {
@@ -89,6 +90,14 @@
 	color: white;
 	font-size: 4em;
 	font-weight: bold;
+}
+
+#nameSubText {
+	font-family: "Arial";
+	color: white;
+	margin-top: -15px;
+	font-size: 2em;
+	letter-spacing: 1.5px;
 }
 
 .circleLabel {
