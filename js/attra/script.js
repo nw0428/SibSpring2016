@@ -87,5 +87,8 @@ function openSubviewFor(id) {
 		case 'skillsPortfolioCircle':
 			$('#portfolioView').fadeIn(100);
 			break;
+		case 'educationCircle':
+			$('#educationView').fadeIn(100);
+			break;
 	}
 }

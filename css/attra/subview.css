@@ -136,8 +136,13 @@
 }
 
 #educationView {
-	display: inline-block;
 	background-color: #158c61;
+	width: 800px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+  	transform: translate(-50%, 0%);
 }
 
 #educationSubSection {
@@ -185,5 +190,12 @@
 	color:rgba(0,0,0,.5); 
 	font-family:'Helvetica-Light', sans-serif; 
 	font-size:14px;
+}
+
+#siImg {
+	margin-top: 35px;
+	max-width:150px;
+	height:auto;
+	vertical-align: middle;
 }
 
