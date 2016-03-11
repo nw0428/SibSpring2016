@@ -1,0 +1,19 @@
+* {
+    border-radius: 0 !important;
+    border-width: 0 !important;
+}
+body {
+    background-color: #CFD8DC;
+    /*font-family: 'Play', sans-serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100%;
+}
+
+.social-icon {
+    width: 35px;
+    height: auto;
+}
+
+.content-hidden {
+    display: none;
+}

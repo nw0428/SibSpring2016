@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+        <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/lemuel/styles.css">
+        <link rel="stylesheet" href="css/lemuel/animate.css">
+        <title>Lemuel Boyce</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="display-3 text-sm-center animated fadeInDown" style="margin-top: 50%;" id="welcome-message">Welcome. <strong>Welkom.</strong> <i>Bon Bin.</i></h1>
+            <div class="row animated fadeIn content-hidden" style="margin-top: 50px;" id="page-body">
+                <div class="col-sm-4 col-sm-offset-4">
+                    <div class="card animated fadeIn">
+                        <img src="https://pbs.twimg.com/profile_images/708011265961099267/zURfl967.jpg" class="card-img-top img-fluid">
+                        <div class="card-block">
+                            <h1 class="card-title text-xs-center">Lemuel Boyce</h1>
+                            <p class="card-text text-xs-center">At heart, I'm a Web Developer with a background in IT, specifically VoIP Engineering.</p>
+                            <p class="text-xs-center"><button class="btn btn-primary" id="showMoreBtn">Show More</button></p>
+                        </div>
+                    </div>
+                    <ul class="list-inline animated slideInUp text-sm-center">
+                            <li class="list-inline-item"><a href="https://linkedin.com/in/lemuelboyce" target="_blank"><img src="img/lemuel/linkedin-flat.png" class="img-fluid social-icon"></a></li>
+                            <li class="list-inline-item"><a href="https://facebook.com/rhymiz" target="_blank"><img src="img/lemuel/facebook-flat.png" class="img-fluid social-icon"></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/rhymiz" target="_blank"><img src="img/lemuel/twitter-flat.png" class="img-fluid social-icon"></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/rhymiz" target="_blank"><img src="img/lemuel/github-gradient.png" class="img-fluid social-icon"></a></li>
+                            <li class="list-inline-item"><a href="mailto:lemuelboyce@gmail.com"><img src="img/lemuel/email-flat.png" class="img-fluid social-icon"></a></li>
+                    </ul>
+                    
+                </div>
+                <div class="col-sm-8 content-hidden">
+                    <div class="card card-block text-xs-center animated slideInDown">
+                        <div class="card-text">
+                            <h2 class="display-5 animated slideInDown">A little about me</h2>
+                            <p>At heart, I'm a Web Developer with a background in IT, specifically VoIP Engineering.  I've designed, deployed and supported VoIP solutions for a wide range of industries.</p>
+                            <p>My interest (which ultimately turned into true love) in software development started when I would write small scripts to speed up deployments and repetitive tasks. I then started looking into programming languages and stuck with Python and have been building Python Web Apps ever since. </p>
+                            <p>My ultimate goal is to provide solutions for problems that plague the industry, in partnership with fellow developers or independently.</p>
+                        </div>
+                    </div>
+                    <div class="card card-block text-xs-center animated slideInUp">
+                        <div class="card-text">
+                            Javascript Awesomeness
+                            <progress class="progress progress-success" value="45" max="100">
+                              <div class="progress">
+                                <span class="progress-bar" style="width: 45%;">45%</span>
+                              </div>
+                            </progress>
+                            <hr>
+                            Python Awesomeness
+                            <progress class="progress progress-warning" value="65" max="100">
+                              <div class="progress">
+                                <span class="progress-bar" style="width: 65%;">65%</span>
+                              </div>
+                            </progress>
+                            <hr>
+                            Ruby Awesomeness
+                            <progress class="progress" value="10" max="100">
+                              <div class="progress">
+                                <span class="progress-bar" style="width: 65%;">65%</span>
+                              </div>
+                            </progress>
+                        </div>
+                    </div>
+                    <div class="animated tada">
+                    <ul class="list-inline animated slideInUp text-sm-center">
+                        <li class="list-inline-item"><h2>#skate</h2></li>
+                        <li class="list-inline-item"><h1><strong>#code</strong></h1></li>
+                        <li class="list-inline-item"><h2>#travel</h2></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+        <script>
+            function hideWelcome() {
+                $('#welcome-message').hide();
+                $('#page-body').show();
+            }
+            $(document).ready(function(){
+                setTimeout(hideWelcome, 1500);
+            })
+            $('#showMoreBtn').on('click', function(){
+                if ($(this).hasClass('btn-danger')){
+                    $(this).html('Show More').removeClass('btn-danger').addClass('btn-primary');
+                    $('.col-sm-4').removeClass('animated slideInRight').addClass('col-sm-offset-4').addClass('animated slideInLeft');
+                    $('.col-sm-8').addClass('content-hidden');
+                    } else {
+                        $(this).html('Show Less').removeClass('btn-primary').addClass('btn-danger');
+                        $('.col-sm-8').removeClass('content-hidden');
+                        $('.col-sm-4').removeClass('col-sm-offset-4').removeClass('animated slideInLeft').addClass('animated slideInRight');
+                    }
+            });
+        </script>
+    </body>
+</html>
