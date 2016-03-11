@@ -1,0 +1,11 @@
+li {
+  font-size: 7em;
+  color: teal;
+  text-transform: uppercase;
+}
+
+li:nth-child(n+2) {
+  font-size: .5em;
+  text-transform: lowercase;
+  color: gray;
+}
