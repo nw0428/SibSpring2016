@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <head>
-  <title>Spencer loves Adventure</title>
+  <title>Spencer Loves _______</title>
   <link rel="stylesheet" type="text/css" href="css/spencer/style.css">
-  <link href="http://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald:400">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="js/spencer/typed.js"></script>
+  <script>
+  $(function(){
+      $(".element").typed({
+        strings: ["ADVENTURE", "KAYAKING", "CAMPING", "CLIMBING"],
+        typeSpeed: 100,
+        loop: true,
+        backSpeed: 50
+      });
+  });
+  </script>
 </head>
 
 <body>
-  <article>
-    <h1>SPENCER LOVES ADVENTURE</h1>
-  </article>
+  <div id="black-opacity">
+    <article>
+      <h1>SPENCER &#9829; <span class="element"></span></h1>
+    </article>
+  </div>
 
-  <video autoplay loop id="video-background" muted>
-    <source src="img/spencer/Chasm+Adventure.mp4" type="video/mp4">
+  <video id="video-background" autoplay loop muted opacity:.5>
+    <source  type="video/mp4" src="img/spencer/Chasm+Adventure.mp4">
   </video>
 </body>
 </html>
